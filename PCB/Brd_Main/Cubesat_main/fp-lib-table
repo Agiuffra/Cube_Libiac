@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Libiac_lib")(type "KiCad")(uri "C:/Users/agiuffra/Documents/Cubesat/Cube_Libiac/PCB/Symbols/Libiac_lib.pretty")(options "")(descr ""))
+)
