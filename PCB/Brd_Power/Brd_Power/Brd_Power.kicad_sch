@@ -2965,6 +2965,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 48.26 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59ddb60b-5f2f-41b3-a4d2-b7f7cda9a894")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7067 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BAT_LVL"
 		(shape input)
 		(at 48.26 123.19 180)
@@ -3009,7 +3031,7 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "SCL"
 		(shape input)
 		(at 48.26 118.11 180)
 		(fields_autoplaced yes)
@@ -3019,31 +3041,9 @@
 			)
 			(justify right)
 		)
-		(uuid "946ff17b-d114-497e-a85e-f4b4db35c751")
+		(uuid "b53d29e2-f3fd-4771-84f5-20ddeb7d4b16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7067 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 48.26 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "add81e08-54fc-469e-a692-f58eaa710c48")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7672 120.65 0)
+			(at 41.7672 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
